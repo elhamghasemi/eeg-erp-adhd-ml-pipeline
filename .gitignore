@@ -205,3 +205,35 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# --- Project data (large/private) ---
+data/
+outputs/
+models/
+figures/
+
+# Keep small samples & README images
+!data/sample/**
+!figures/readme/**
+
+# --- EEG/ERP & common data formats (ignore globally) ---
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.edf
+*.bdf
+*.set
+*.fdt
+*.fif
+*.vhdr
+*.vmrk
+*.eeg
+*.mat
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.parquet
+*.sav
+*.pkl
+*.joblib
